@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="This week we will be creating our layout using CSS Flexbox">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Week 5 | Layouts with CSS Flexbox</title>
+  <!-- add Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- add our CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<!-- add our header -->
+<header>
+  <!-- logo container -->
+  <div>
+    <a href="index.html"><img src="./img/logo.png" alt="header logo"></a>
+  </div>
+  <!-- site navigation -->
+  <nav>
+    <menu>
+      <li><a href="#">Fake Link 1</a></li>
+      <li><a href="#">Fake Link 2</a></li>
+      <li><a href="#">Fake Link 3</a></li>
+    </menu>
+  </nav>
+</header>
+<!-- add our hero image / masthead -->
+<section class="lesson-masthead">
+  <h1>Layouts With CSS Grid</h1>
+</section>
+<!-- adding a div as a flex container for the main and aside -->
+<div class="flex-content-container">
+<!-- add our main element to contain all of our pages main content -->
+<main>
+  <!-- two column row -->
+  <section>
+    <div>
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolorum illo ipsa! Blanditiis cum esse, laborum reiciendis repellat unde! Eaque earum impedit minus modi possimus qui quod, sed ut voluptate. Animi dicta dolorum eaque eos exercitationem facere illum itaque mollitia nam natus necessitatibus nihil, obcaecati perspiciatis quasi quos saepe similique sit soluta tenetur ut veritatis?</p>
+    </div>
+    <div>
+      <img src="./img/image-1.jpg" alt="image one">
+    </div>
+  </section>
+  <!-- two column row -->
+  <section>
+    <div>
+      <img src="./img/image-2.jpg" alt="image two">
+    </div>
+    <div>
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolorum illo ipsa! Blanditiis cum esse, laborum reiciendis repellat unde! Eaque earum impedit minus modi possimus qui quod, sed ut voluptate. Animi dicta dolorum eaque eos exercitationem facere illum itaque mollitia nam natus necessitatibus nihil, obcaecati perspiciatis quasi quos saepe similique sit soluta tenetur ut veritatis?</p>
+    </div>
+  </section>
+  <!-- six column row -->
+  <section>
+    <div>
+      <img src="./img/image-3.jpg" alt="image three">
+    </div>
+    <div>
+      <img src="./img/image-4.jpg" alt="image four">
+    </div>
+    <div>
+      <img src="./img/image-5.jpg" alt="image five">
+    </div>
+    <div>
+      <img src="./img/image-six.jpg" alt="image six">
+    </div>
+    <div>
+      <img src="./img/image-1.jpg" alt="image one">
+    </div>
+    <div>
+      <img src="./img/image-2.jpg" alt="image two">
+    </div>
+  </section>
+</main>
+<!-- add our sidebar using the aside element -->
+<aside>
+  <article>
+    <figure>
+      <img src="./img/image-3.jpg" alt="image three">
+      <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at illum inventore maxime natus tempore?</figcaption>
+    </figure>
+  </article>
+  <article>
+    <figure>
+      <img src="./img/image-4.jpg" alt="image four">
+      <figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at illum inventore maxime natus tempore?</figcaption>
+    </figure>
+  </article>
+</aside>
+<!-- add our footer element -->
+</div>
+<footer>
+  <!-- logo -->
+  <div>
+    <a href="index.html"><img src="./img/logo.png" alt="footer logo"></a>
+  </div>
+  <!-- text -->
+  <div>
+    <h6>Footer Title</h6>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet cum dolores ea exercitationem facilis, hic molestias natus odio perspiciatis quod reiciendis rerum, sed, sequi ullam veniam veritatis vitae. Commodi corporis culpa cum eligendi minima nisi perspiciatis quos, velit voluptatem? Amet aperiam, dolores error exercitationem provident saepe tempore voluptatibus voluptatum.</p>
+  </div>
+  <!-- form -->
+  <div>
+    <form method="post" action="somefile">
+      <p><input type="text" name="name" placeholder="Your Name"></p>
+      <p><input type="email" name="email" placeholder="Your Email"></p>
+      <p><textarea placeholder="Your Message"></textarea></p>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+</footer>
+</body>
+</html>
